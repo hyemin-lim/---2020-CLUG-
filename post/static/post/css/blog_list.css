@@ -1,0 +1,25 @@
+body{
+    background-color: blanchedalmond;
+}
+.post_box{
+    display: flex;
+    justify-content: center;
+}
+.post_one{
+    background-color: aliceblue;
+    margin-bottom: 20px;
+    height:100px;
+    width:700px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post_title a{
+    color:black;
+}
+
+.post_date{
+    color:gold;
+}

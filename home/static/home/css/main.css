@@ -1,0 +1,23 @@
+body{
+    background-color: beige;
+}
+
+.jumbotron{
+    background-color: blanchedalmond;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.lead{
+    display: flex;
+    justify-content: center;
+}
+
+.main_img{
+    display:flex;
+    justify-content: center;
+}

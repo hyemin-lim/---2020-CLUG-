@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block contents %}
+
+    <button type="button" class="btn btn-outline-warning">
+        <a href="{% url 'update_blog' blog.id %}">
+            Update
+        </a>
+    </button>
+
+    <button type="button" class="btn btn-outline-dark">
+        <a href="{% url 'delete_blog' blog.id %}">
+            Delete
+        </a>
+    </button>
+
+    <div class="card" style="width: 100%;">
+        <div class="card-body">
+            <h5 class="card-title">{{ blog.title }}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">{{ blog.pub_date }}</h6>
+            <p class="card-text">{{ blog.body }}</p>
+        </div>
+    </div>
+{% endblock %}
